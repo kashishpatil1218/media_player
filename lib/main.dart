@@ -11,9 +11,9 @@ void main() {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(
-          create: (context) => ShareProvider(),
-        ),
+        // ChangeNotifierProvider(
+        //   create: (context) => ShareProvider(),
+        // ),
         ChangeNotifierProvider(
           create: (context) => LikeProvider(),
         ),

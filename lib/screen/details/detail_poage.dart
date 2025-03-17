@@ -97,8 +97,8 @@ Padding infoContainer({
                   transform: Matrix4.rotationZ(5.8),
                   child: InkWell(
                     onTap: () {
-                      Provider.of<ShareProvider>(context, listen: false)
-                          .shareReel(video);
+                      // Provider.of<ShareProvider>(context, listen: false)
+                      //     .shareReel(video);
                     },
                     child: Icon(
                       Icons.share,
